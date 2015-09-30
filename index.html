@@ -17,28 +17,8 @@ h1 {font-size: 50px
 
 h2 {font-size: 30px}
 
-#slideshow {
-   position: relative;
-   width:  900px; /* 画像の横幅に合わせて記述 */
-   height: 400px; /* 画像の高さに合わせて記述 */
-}
-#slideshow img {
-   position: absolute;
-   top: 0;
-   left:0;
-   z-index: 8;
-   opacity: 0.0;
-}
-#slideshow img.active {
-   z-index: 10;
-   opacity: 1.0;
-}
-#slideshow img.last-active {
-   z-index: 9;
-}
-
 body {background-image: url(http://blog.lexues.co.jp/wp-content/uploads/2013/11/skyandrainbows-500x400.jpg);
-	/*text-align: center*/}
+	text-align: center}
 
 /* メニュー */
 
@@ -99,7 +79,7 @@ small::before {content: 'I Believe';
 		position: absolute;
 		left: 20px;
 		top: 80px;
-		opacity: 0.3
+		opacity: 0.4
 		}
 
 /*=====PC用の設定=====*/
@@ -165,17 +145,8 @@ table#pagetable {text-align: center;
 <body>
 	<h1>国の特定疾患-難病-</h1>
 
-<p id="slideshow">
-   <img src="2015-05-03_00.55.19.431.jpg" height="400" width="900" alt="画像1" class="active">
-   <img src="2015-09-04_12.48.35.708.jpg" height="400" width="900" alt="画像2">
-   <img src="2015-09-04_14.04.19.860.jpg" height="400" width="900" alt="画像3">
-   <img src="2015-09-04_16.41.32.376.jpg" height="400" width="900" alt="画像4">
-   <img src="Screenshot_2015-09-28-15-59-59.png" height="400" width="900" alt="画像5">
-</p>
-
-<!--
 <img src="2015-05-03_00.55.19.431.jpg" height="400" width="900" alt="タイトル">
--->
+
 <!--内容-->
 <article>
 	<section>
