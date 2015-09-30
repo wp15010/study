@@ -9,6 +9,7 @@ maximum=1">
 
 
 <style>
+
 /* 見出し */
 
 h1 {font-size: 50px
@@ -47,14 +48,30 @@ table td a:hover {
 
 
 /* 画像 */
-article section figure {
+
+/* .slid */
+.slid {width: 400px;
+		height: 200px;
+		position: relative}
+
+.slid .item {width: 400px;
+		height:200px;
+		position: absolute;
+		top: 0;
+		left: 0}
+
+.slid .item .next {left: 50px;
+		opacity: 0}
+
+
+/*article section figure {
 	float: left;
 	margin: 0;
 	margin-top: 20px;
 	margin-bottom: 0;
 	margin-right: 15px
 }
-
+*/
 /* 内容 */
 article section p{
 	font-size: 19.5px
@@ -144,6 +161,18 @@ table#pagetable {text-align: center;
 <body>
 	<h1>国の特定疾患-難病-</h1>
 
+
+	<figure>
+	<div class="slid">
+	<div class="item"><p><img src="Screenshot_2015-09-28-15-59-59.png" height="290" width="500"></p></div>
+	<div class="item"><p><img src="2015-05-03_00.55.19.431.jpg" height="290" width="500"></p></div>
+	<div class="item"><p><img src="2015-09-04_14.04.19.860.jpg" height="290" width="500"></p></div>
+	<div class="item"><p><img src="2015-09-04_12.48.35.708.jpg" height="290" width="500"></p></div>
+	<div class="item"><p><img src="2015-09-04_16.41.32.376.jpg" height="290" width="500"></p></div>
+
+	<!-- / .slid --></div>
+	</figure>
+
 <img src="2015-05-03_00.55.19.431.jpg" height="400" width="900" alt="タイトル">
 
 <!--内容-->
@@ -152,10 +181,7 @@ table#pagetable {text-align: center;
 		<h2>国の特定疾患（難病）って何？</h2>
 
 			<header id="pageheader">
-			<figure>
-			<img src="2015-09-04_16.41.32.376.jpg" height="290" width="500" alt="悩む">
-			<br>
-			</figure>
+			
 						<!--内容-->
 				<li>
 					<p><strong>特定疾患（とくていしっかん）</strong>とは、日本において 厚生労働省が実施する難治性疾患克服研究事業の臨床調査研究分野の対象に指定された疾患（2012年現在、130疾患）である。<br>
