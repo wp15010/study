@@ -12,6 +12,25 @@ maximum=1">
 
 /* 見出し */
 
+.slide {
+	width: 400px;
+	height: 900px;
+	position: relative;
+}
+
+.slide .item {
+	width: 400px;
+	height: 900px;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+
+.slide .item.next {
+	left: 50px;
+	opacity: 0;
+}
+
 h1 {font-size: 50px
 	}
 
@@ -49,29 +68,13 @@ table td a:hover {
 
 /* 画像 */
 
-/* .slid */
-.slid {width: 400px;
-		height: 200px;
-		position: relative}
-
-.slid .item {width: 400px;
-		height:200px;
-		position: absolute;
-		top: 0;
-		left: 0}
-
-.slid .item .next {left: 50px;
-		opacity: 0}
-
-
-/*article section figure {
+article section figure {
 	float: left;
 	margin: 0;
 	margin-top: 20px;
 	margin-bottom: 0;
 	margin-right: 15px
 }
-*/
 /* 内容 */
 article section p{
 	font-size: 19.5px
@@ -161,22 +164,25 @@ table#pagetable {text-align: center;
 <body>
 	<h1>国の特定疾患-難病-</h1>
 
-
-	<figure>
-	<div class="slid">
-	<div class="item"><p><img src="Screenshot_2015-09-28-15-59-59.png" height="290" width="500"></p></div>
-	<div class="item"><p><img src="2015-05-03_00.55.19.431.jpg" height="290" width="500"></p></div>
-	<div class="item"><p><img src="2015-09-04_14.04.19.860.jpg" height="290" width="500"></p></div>
-	<div class="item"><p><img src="2015-09-04_12.48.35.708.jpg" height="290" width="500"></p></div>
-	<div class="item"><p><img src="2015-09-04_16.41.32.376.jpg" height="290" width="500"></p></div>
+	
+	<div class="slide">
+	<div class="item"><p><img src="2015-09-04_16.41.32.376.jpg" height="400" width="900"></p></div>
+	<div class="item"><p><img src="2015-05-03_00.55.19.431.jpg" height="400" width="900"></p></div>
+	<div class="item"><p><img src="2015-09-04_12.48.35.708.jpg" height="400" width="900"></p></div>
+	<div class="item"><p><img src="2015-09-04_14.04.19.860.jpg" height="400" width="900"></p></div>
 
 	<!-- / .slid --></div>
-	</figure>
-
+	
+<!--
 <img src="2015-05-03_00.55.19.431.jpg" height="400" width="900" alt="タイトル">
-
+-->
 <!--内容-->
 <article>
+
+				<figure>
+					<img src="C:\Users\kikuchiyosiyuki\Downloads\2015-09-04_16.41.32.376.jpg" height="290" width="500" alt="悩む">
+				</figure>
+
 	<section>
 		<h2>国の特定疾患（難病）って何？</h2>
 
