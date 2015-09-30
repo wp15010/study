@@ -82,9 +82,8 @@ small::before {content: 'I Believe';
 		}
 
 /*=====PC用の設定=====*/
-@media only screen(min-width:900px){
+@media only screen and (min-width:900px){
 }
-
 /*=====タブレット用の設定=====*/
 @media only screen and (min-width:600px)and (max-width:899px){
 
@@ -109,7 +108,7 @@ div#container {width: 100%;
 				background-position: -3px 220px, 100px 280px}
 
 header#pageheader img {width: 100%;
-						height: auto;}
+						height: auto}
 
 header#pageheader h1 {font-size: 24px;
 					margin-right: 15px}
@@ -131,6 +130,19 @@ article section:nth-of-type(1n) figure
 article section:nth-of-type(1n) figcaption
 				{text-align: center;
 					margin-bottom: 15px}
+
+table#pagetable {text-align: center;
+				padding: 0}
+
+small::before {content: 'I Believe';
+		color: #ffffff;
+		font-family: 'Lobster', cursive;
+		font-size: 350px;
+		position: absolute;
+		left: 20px;
+		top: 80px;
+		opacity: 0.3
+		}
 }
 
 
@@ -171,7 +183,7 @@ article section:nth-of-type(1n) figcaption
 
 
 
-<table>
+<table id ="pagetable">
 <caption>（平成27年7月～）</caption>
 	<tr>
 		<td><a href="http://www.nanbyou.or.jp/entry/41">IgA腎症</a></td>
