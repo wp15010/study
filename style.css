@@ -14,9 +14,15 @@ h1 {font-size: 50px
 		border:outset 3px #c3cbbd;
 		background-color: #c3cbbd;
 		text-align: center;
-		color: #000000;}
+		color: #000000;
+		font-size: 14px;
+		float: left;}
 
-ul li {padding: center}
+#memu li a:hover{
+	border:inset 3px #95a38d;
+	background-color: #95a38d;
+}
+
 
 h2 {font-size: 30px;
 	text-align: center}
