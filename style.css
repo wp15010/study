@@ -1,0 +1,147 @@
+h1 {font-size: 50px
+	}
+
+#memu {margin: 0;
+		padding: 0;
+		list-style: none;
+		}
+
+#memu li {display: block;
+		padding: 3px;
+		width: 100px;
+		margin: 10px 0 10px 0;
+		text-decoration: none;
+		border:outset 3px #c3cbbd;
+		background-color: #c3cbbd;
+		text-align: center;
+		color: #000000;
+		font-size: 14px;
+		float: left;}
+
+#memu li a:hover{
+	border:inset 3px #95a38d;
+	background-color: #95a38d;
+}
+
+
+h2 {font-size: 30px;
+	text-align: center}
+
+body {background-image: url(http://blog.lexues.co.jp/wp-content/uploads/2013/11/skyandrainbows-500x400.jpg);
+	text-align: center}
+
+
+article h2 {padding: center}
+
+table {text-align: auto;
+		padding-left: 55px}
+
+table caption {text-align: center}
+
+td{border: 1px solid #999999;
+    padding: center;
+	background-color: #99ff00
+	}
+
+article header {border: solid 1px #aaaaaa;
+				background-color: #99ff00;
+				margin-bottom: 0;
+				border-radius: 20px;
+				background: -webkit-linear-gradient(#ffffff 0%, #99ff00 100%)
+				}
+
+article section {overflow: hidden}
+
+table td a:hover {
+	background-color: #7FFFD4}
+
+
+
+article section figure {
+	float: left;
+	margin: 0;
+	margin-top: 20px;
+	margin-bottom: 0;
+	margin-right: 15px
+}
+
+
+article section p{
+	font-size: 19.5px
+}
+
+
+footer {color: #ffffff;
+		background-color: #000000;
+		margin-top: 25px;
+		padding-top: 8px;
+		padding-bottom: 8px}
+
+small {font-size: 10px;
+		font-style: normal;
+		text-align: center;
+		display: block}
+
+small::before {content: 'I Believe';
+		color: #ffffff;
+		font-family: 'Lobster', cursive;
+		font-size: 300px;
+		position: absolute;
+		left: 20px;
+		top: 80px;
+		opacity: 0.3
+		}
+
+/*=====PC用の設定=====*/
+@media only screen and (min-width:900px){
+}
+/*=====タブレット用の設定=====*/
+@media only screen and (min-width:600px)and (max-width:899px){
+
+div#container {width: 100%;
+				box-sizing: border-box;
+				-webkit-box-sizing: border-box;
+				-moz-box-sizing: border-box;
+				padding: 0 10px;
+				background-position: -3px 380px, 100px 460px}
+
+header#pageheader img {width: 100%;
+						height:auto}
+}
+
+/*=====スマートフォン用の設定=====*/
+@media only screen and (max-width:559px){
+
+div#container {width: 100%;
+				box-sizing: border-box;
+				-moz-box-sizing: border-box;
+				padding: 0 10px;
+				background-position: -3px 220px, 100px 280px}
+
+header#pageheader img {width: 100%;
+						height: auto}
+
+header#pageheader h1 {font-size: 24px;
+					margin-right: 15px}
+
+header#pageheader h2 {font-size: 10px;
+					text-align: left;
+					padding:0}
+
+article header h1 {font: none}
+
+article header p {margin: 0}
+
+article section:nth-of-type(1n) figure
+				{float: none;
+					margin: 0;
+					text-align: center;
+					display: block}
+
+article section:nth-of-type(1n) figcaption
+				{text-align: center;
+					margin-bottom: 15px}
+
+table#pagetable {text-align: center;
+				padding: 0}
+}
