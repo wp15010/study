@@ -52,35 +52,30 @@ h1 {font-size: 50px
 h2 {font-size: 30px;
 	text-align: center}
 
-body {background-image: url(http://blog.lexues.co.jp/wp-content/uploads/2013/11/skyandrainbows-500x400.jpg);
+body {background-image: url(l_gin_tuki01.jpg) , url(P0025230-0101.jpg);
+	background-repeat: no-repeat;
 	text-align: center}
 
 
 article h2 {padding: center}
 
 table {text-align: auto;
-		padding-left: 55px}
+		padding-left: 55px;
+		opacity: 0.3;}
 
 table caption {text-align: center}
 
-td{border: 1px solid #999999;
+th , td{border: 1px solid #999999;
     padding: center;
 	background-color: #99ff00
 	}
 
-article header {border: solid 1px #aaaaaa;
-				background-color: #99ff00;
-				margin-bottom: 0;
-				border-radius: 20px;
-				background: -webkit-linear-gradient(#ffffff 0%, #99ff00 100%)
-				}
-
-article section {overflow: hidden}
-
 table td a:hover {
 	background-color: #7FFFD4}
 
-
+table th a:hover{
+	background: #7FFFD4;
+}
 
 article section figure {
 	float: left;
@@ -107,11 +102,3 @@ small {font-size: 10px;
 		text-align: center;
 		display: block}
 
-small::before {content: 'I Believe';
-		color: #ffffff;
-		font-family: 'Lobster', cursive;
-		font-size: 300px;
-		position: absolute;
-		left: 20px;
-		top: 80px;
-}
